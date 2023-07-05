@@ -22,8 +22,8 @@ public class Amogus {
 		boolean drop=false;
 		int time=0;
 
-		MyLabel mylabel = new MyLabel(text);
-		MyFrame myframe = new MyFrame();
+		AmogusLabel mylabel = new AmogusLabel(text);
+		AmogusFrame myframe = new AmogusFrame();
 		myframe.add(mylabel);//Do things same with frame.add(label) 
 
 		File file = new File("Among Us Trap Remix.wav");

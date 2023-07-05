@@ -12,13 +12,6 @@ public class Game {
 	static ArrayList<Integer> userpositionlist = new ArrayList<Integer>();
 	static ArrayList<Integer> aipositionlist = new ArrayList<Integer>();
 
-//	public void build(String choice) {
-//		choice=choice.toUpperCase();
-//		this.choice=choice.charAt(0);
-//		System.out.println("You are '"+choice+"'");
-//		printCurrent();
-//		System.out.println("You first!\nChose the position");
-//	}
 	public char ch[][]={
 			{'1','|','2','|','3'},
 			{'-','+','-','+','-'},
@@ -27,14 +20,6 @@ public class Game {
 			{'7','|','8','|','9'}
 
 	};
-//	void printCurrent() {
-//		for(int i=0;i<5;i++) {
-//			for(int j=0;j<5;j++) {
-//				System.out.print(ch[i][j]);
-//			}
-//			System.out.println("");
-//		}
-//	}
 	void userSetPosition(int position) {
 		switch(position) {
 		case 0:

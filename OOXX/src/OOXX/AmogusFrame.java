@@ -12,8 +12,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class MyFrame extends JFrame{
-	MyFrame(){
+public class AmogusFrame extends JFrame{
+	AmogusFrame(){
 		//		JFrame frame=new JFrame();
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);

@@ -51,8 +51,6 @@ public class Buttons{
 	public static void checkgameStatus() {
 		switch(OOXX.gamestatus) {
 		case 1:
-//			MyException e = new MyException();
-//			e.setgamestate(1);
 			System.out.println("You WIN!!");
 			break;
 		case 2:

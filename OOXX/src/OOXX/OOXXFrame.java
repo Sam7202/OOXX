@@ -96,21 +96,22 @@ public class OOXXFrame extends JFrame implements ActionListener{
 		switch(OOXX.gamestatus) {
 		case 1:
 			System.out.println(" You WIN!!");
-//			this.dispose();
 			new Amogus("You WIN!!");
 			break;
 		case 2:
 			System.out.println(" You Lose :( ");
-//			this.dispose();
 			new Amogus("You Lose :( ");
 			break;
 		case 3:
 			System.out.println(" No one Wins :/ ");
-//			this.dispose();
 			new Amogus(" No one Wins :/ ");
-
 			break;
+			
+		default:
+			return;
 		}
+		//if the game has end then close the frame
+			this.dispose();
 	}
 }
 

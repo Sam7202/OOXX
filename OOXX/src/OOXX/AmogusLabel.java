@@ -7,8 +7,8 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
-public class MyLabel extends JLabel{
-	MyLabel(String text){
+public class AmogusLabel extends JLabel{
+	AmogusLabel(String text){
 		ImageIcon imageIcon = new ImageIcon("Amogus.png");
 		Image image=imageIcon.getImage();
 		Image newing=image.getScaledInstance(250, 250,  java.awt.Image.SCALE_SMOOTH);
