@@ -9,7 +9,7 @@ import javax.swing.JLabel;
 
 public class AmogusLabel extends JLabel{
 	AmogusLabel(String text){
-		ImageIcon imageIcon = new ImageIcon("Amogus.png");
+		ImageIcon imageIcon = new ImageIcon("assets/Amogus.png");
 		Image image=imageIcon.getImage();
 		Image newing=image.getScaledInstance(250, 250,  java.awt.Image.SCALE_SMOOTH);
 		imageIcon=new ImageIcon(newing);//resize Icon

@@ -26,7 +26,7 @@ public class Amogus {
 		AmogusFrame myframe = new AmogusFrame();
 		myframe.add(mylabel);//Do things same with frame.add(label) 
 
-		File file = new File("Among Us Trap Remix.wav");
+		File file = new File("assets/Among Us Trap Remix.wav");
 		try {
 			AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
 			Clip clip = AudioSystem.getClip();
