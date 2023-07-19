@@ -1,8 +1,6 @@
 package OOXX;
 
 import java.awt.Color;
-import java.awt.Font;
-import java.awt.Image;
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;
@@ -12,9 +10,6 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 
 
 public class Amogus {
@@ -26,7 +21,8 @@ public class Amogus {
 		AmogusFrame myframe = new AmogusFrame();
 		myframe.add(mylabel);//Do things same with frame.add(label) 
 
-		File file = new File("assets/Among Us Trap Remix.wav");
+		File file = new File(".//assets/AmongUsTrapRemix.wav");
+//		InputStream inputStream  = getClass().getClassLoader().getResourceAsStream("AmongUsTrapRemix.wav");
 		try {
 			AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
 			Clip clip = AudioSystem.getClip();
